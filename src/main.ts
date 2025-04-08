@@ -31,8 +31,6 @@ const buildResponse = (arg: Record<string, number | string | undefined>) => {
 
   let joinedResponse = [...response, ""].join("\r\n");
 
-  // joinedResponse += "\r\n\r\n";
-
   return joinedResponse;
 };
 
